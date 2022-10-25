@@ -103,6 +103,8 @@ Comandos:
 docker container run -ti ubuntu
 
 
+
+
 Os parâmetros mais utilizados na execução do container são:
 
 Parâmetro	Explicação
