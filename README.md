@@ -101,6 +101,8 @@ Obs.: É possível ver todos os comandos que o Docker possui, tendo o docker ins
 Comandos:
 
 docker container run -ti ubuntu
+docker container -d ngnix
+docker exec -ti ngnix ls /etc
 
 
 
