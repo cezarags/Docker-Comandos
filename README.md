@@ -98,5 +98,10 @@ docker wait    – Aguarda o retorno da execução de um container para iniciar 
 Obs.: É possível ver todos os comandos que o Docker possui, tendo o docker instalado, basta digitar no terminal docker --help
 
 
+Comandos:
+
+docker container run -ti ubuntu
+
+
  
 
