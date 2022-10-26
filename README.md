@@ -141,5 +141,11 @@ RUN apt-get update && apt-get install -y stress && apt-get clean
 CMD stress --cpu 1 --vm-bytes 64M --vm1
 
 
+ docker image build -t meu_apache:1.0.0 .
+ 
+ 
+ docker container run -d -p 8080:80 meu_apache:1.0.0 
+
+
  
 
